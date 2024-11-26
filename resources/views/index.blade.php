@@ -50,33 +50,30 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home<br></a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
           <li class="dropdown"><a href="#"><span>Adopt</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Adopt</a>anjing</li>
-              <li class="dropdown"><a href="#"><span>Anjing</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li><a href="#">Kucing</a></li>
+              {{-- <li class="dropdown"><a href="#"><span>Anjing</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                   <li><a href="#"><></></a></li>
-                  <li><a href="anjing.blade.php">anjing</a></li>
+                  <li><a href="anjing.blade.php">Anjing</a></li>
                   <li><a href="#">Deep Dropdown 3</a></li>
                   <li><a href="#">Deep Dropdown 4</a></li>
                   <li><a href="#">Deep Dropdown 5</a></li>
                 </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+              </li> --}}
+              <li><a href="#">Anjing </a></li>
+              <li><a href="#">Kelinci </a></li>
+              <li><a href="#">Burung </a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">Kontak</a></li>
+          <li><a href="#services">Daftar</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+      <a class="btn-getstarted" href="index.html#about">Login</a>
 
     </div>
   </header>
@@ -86,14 +83,14 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/adop.png" alt="" data-aos="fade-in">
+      <img src="assets/img/WINDOW OF HOPE.png" alt="" data-aos="fade-in" width="100%" >
 
       <div class="container">
 
         <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-xl-6 col-lg-8">
-            <h2>Powerful Digital Solutions With GP<span>.</span></h2>
-            <p>We are team of talented digital marketers</p>
+          <div class="col-xl-8 col-lg-8"> 
+            <h2> <br> Pet-Care Terbaik Se-Indonesia<span>.</span></h2>
+            <p>Kami memberikan pelayanan dan kualitas terbaik</p>
           </div>
         </div>
 
@@ -101,31 +98,31 @@
           <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
               <i class="bi bi-binoculars"></i>
-              <h3><a href="">Lorem Ipsum</a></h3>
+              <h3><a href="">Adopsi Pet</a></h3>
             </div>
           </div>
           <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
             <div class="icon-box">
               <i class="bi bi-bullseye"></i>
-              <h3><a href="">Dolor Sitema</a></h3>
+              <h3><a href="">Dokter Hewan</a></h3>
             </div>
           </div>
           <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
             <div class="icon-box">
               <i class="bi bi-fullscreen-exit"></i>
-              <h3><a href="">Sedare Perspiciatis</a></h3>
+              <h3><a href="">Pet Shop</a></h3>
             </div>
           </div>
           <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
             <div class="icon-box">
               <i class="bi bi-card-list"></i>
-              <h3><a href="">Magni Dolores</a></h3>
+              <h3><a href="">Pet Hotels</a></h3>
             </div>
           </div>
           <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
             <div class="icon-box">
               <i class="bi bi-gem"></i>
-              <h3><a href="">Nemos Enimade</a></h3>
+              <h3><a href="">Pet Community</a></h3>
             </div>
           </div>
         </div>
@@ -144,7 +141,7 @@
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 order-2 order-lg-1 content">
-            <h3>Voluptatem dignissimos provident</h3>
+            <h3>Deskripsi</h3>
             <p class="fst-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
@@ -155,8 +152,7 @@
               <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
             </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+              Didirikan pada tahun 2024, WIINDOW OF HOPE hadir sebagai solusi modern untuk pecinta hewan peliharaan. Kami menawarkan platform inovatif yang menghubungkan calon pemilik dengan hewan-hewan yang membutuhkan rumah baru. Dengan fokus pada adopsi yang bertanggung jawab, kami menyediakan layanan yang mempermudah proses adopsi sambil memastikan kesejahteraan hewan menjadi prioritas utama. Bergabunglah dengan kami untuk menciptakan komunitas pecinta hewan yang peduli dan penuh kasih.
             </p>
           </div>
         </div>
