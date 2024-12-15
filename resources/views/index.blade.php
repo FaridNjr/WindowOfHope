@@ -83,7 +83,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/WINDOW OF HOPE.png" alt="" data-aos="fade-in" width="100%" >
+      <img src="assets/img/WINDOW OF HOPE.jpg" alt="" data-aos="fade-in" width="100%" >
 
       <div class="container">
 
@@ -138,21 +138,12 @@
 
         <div class="row gy-4">
           <div class="col-lg-6 order-1 order-lg-2">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <img src="assets/img/they.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 order-2 order-lg-1 content">
             <h3>Deskripsi</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-            </ul>
             <p>
-              Didirikan pada tahun 2024, WIINDOW OF HOPE hadir sebagai solusi modern untuk pecinta hewan peliharaan. Kami menawarkan platform inovatif yang menghubungkan calon pemilik dengan hewan-hewan yang membutuhkan rumah baru. Dengan fokus pada adopsi yang bertanggung jawab, kami menyediakan layanan yang mempermudah proses adopsi sambil memastikan kesejahteraan hewan menjadi prioritas utama. Bergabunglah dengan kami untuk menciptakan komunitas pecinta hewan yang peduli dan penuh kasih.
+            Didirikan pada tahun 2024, WIINDOW OF HOPE hadir sebagai solusi modern untuk pecinta hewan peliharaan. Kami menawarkan platform inovatif yang menghubungkan calon pemilik dengan hewan-hewan yang membutuhkan rumah baru. Dengan fokus pada adopsi yang bertanggung jawab, kami menyediakan layanan yang mempermudah proses adopsi sambil memastikan kesejahteraan hewan menjadi prioritas utama. Bergabunglah dengan kami untuk menciptakan komunitas pecinta hewan yang peduli dan penuh kasih.
             </p>
           </div>
         </div>
@@ -161,61 +152,6 @@
 
     </section><!-- /About Section -->
 
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 40
-                },
-                "480": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 60
-                },
-                "640": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 80
-                },
-                "992": {
-                  "slidesPerView": 6,
-                  "spaceBetween": 120
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Clients Section -->
 
     <!-- Features Section -->
     <section id="features" class="features section">
@@ -223,38 +159,38 @@
       <div class="container">
 
         <div class="row gy-4">
-          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/features-bg.jpg" alt=""></div>
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/adopter.jpg" alt=""></div>
           <div class="col-lg-6">
 
             <div class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-archive flex-shrink-0"></i>
+              <img src="assets/img/cat.png" width="60" height="60" alt=""> 
               <div>
-                <h4>Est labore ad</h4>
-                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                <h4>Mempermudah Proses Adopsi</h4>
+                <p>Calon pengadopsi bisa melihat daftar hewan yang tersedia secara online.</p>
               </div>
             </div><!-- End Features Item-->
 
             <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-basket flex-shrink-0"></i>
+              <img src="assets/img/pet-shelter.png" width="60" height="60" alt="">
               <div>
-                <h4>Harum esse qui</h4>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                <h4>Mendukung Shelter Lokal</h4>
+                <p>Menjadi jembatan antara shelter lokal dan masyarakat.</p>
               </div>
             </div><!-- End Features Item-->
 
             <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-broadcast flex-shrink-0"></i>
+              <img src="assets/img/pet-lover.png" width="60" height="60" alt="">
               <div>
-                <h4>Aut occaecati</h4>
-                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                <h4>Menghubungkan Komunitas Pecinta Hewan</h4>
+                <p>Menyediakan forum atau ruang diskusi untuk berbagi informasi, pengalaman, dan bertukar tips tentang merawat hewan.</p>
               </div>
             </div><!-- End Features Item-->
 
             <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-camera-reels flex-shrink-0"></i>
+              <img src="assets/img/dog.png" width="60" height="60" alt="">
               <div>
-                <h4>Beatae veritatis</h4>
-                <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                <h4>Berkontribusi pada Kesejahteraan Hewan</h4>
+                <p>Membantu hewan yang memerlukan perhatian khusus seperti cacat, sakit, atau trauma untuk mendapatkan keluarga baru.</p>
               </div>
             </div><!-- End Features Item-->
 
@@ -270,9 +206,9 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Check our Services</p>
-      </div><!-- End Section Title -->
+        <h2>Unique Facts</h2>
+        <p>Check our Facts</p>
+      </div> <!-- End Section Title -->
 
       <div class="container">
 
@@ -284,11 +220,11 @@
                 <i class="bi bi-activity"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Nesciunt Mete</h3>
+                <h3>Menyelamatkan Nyawa</h3>
               </a>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+              <p>Banyak hewan di penampungan menghadapi risiko euthanasia jika tidak diadopsi dalam waktu tertentu. Dengan mengadopsi, Anda bisa menyelamatkan nyawa mereka.</p>
             </div>
-          </div><!-- End Service Item -->
+          </div> <!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
@@ -296,11 +232,11 @@
                 <i class="bi bi-broadcast"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Eosle Commodi</h3>
+                <h3>Mengurangi Populasi Hewan Terlantar</h3>
               </a>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+              <p>Dengan mengadopsi hewan, Anda membantu mengurangi jumlah hewan yang terlantar di jalanan dan di tempat penampungan.</p>
             </div>
-          </div><!-- End Service Item -->
+          </div> <!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
@@ -308,9 +244,9 @@
                 <i class="bi bi-easel"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Ledo Markt</h3>
+                <h3>Mendapatkan Hewan yang Sudah Terlatih</h3>
               </a>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+              <p>Banyak hewan di penampungan sudah dilatih dasar, sehingga Anda tidak perlu memulai dari nol. Ini bisa menghemat waktu dan usaha dalam pelatihan.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -320,9 +256,9 @@
                 <i class="bi bi-bounding-box-circles"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Asperiores Commodit</h3>
+                <h3>Mendukung Komunitas</h3>
               </a>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+              <p>Dengan mengadopsi, Anda mendukung organisasi penyelamat hewan dan komunitas lokal yang bekerja keras untuk merawat hewan terlantar.</p>
               <a href="service-details.html" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -333,12 +269,12 @@
                 <i class="bi bi-calendar4-week"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Velit Doloremque</h3>
+                <h3>Kesehatan Mental</h3>
               </a>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+              <p>Memiliki hewan peliharaan dapat meningkatkan kesehatan mental dan emosional pemiliknya. Hewan peliharaan dapat memberikan dukungan emosional dan mengurangi stres.</p>
               <a href="service-details.html" class="stretched-link"></a>
             </div>
-          </div><!-- End Service Item -->
+          </div> <!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item position-relative">
@@ -346,21 +282,21 @@
                 <i class="bi bi-chat-square-text"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Dolori Architecto</h3>
+                <h3>Mengurangi Populasi Hewan Terlantar</h3>
               </a>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+              <p>Dengan mengadopsi hewan, Anda membantu mengurangi jumlah hewan yang terlantar di jalanan dan di tempat penampungan.</p>
               <a href="service-details.html" class="stretched-link"></a>
             </div>
-          </div><!-- End Service Item -->
+          </div> <!-- End Service Item -->
 
-        </div>
+       </div>
 
       </div>
 
-    </section><!-- /Services Section -->
+    </section> <!-- /Services Section -->
 
     <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section dark-background">
+    <!--<section id="call-to-action" class="call-to-action section dark-background">
 
       <img src="assets/img/cta-bg.jpg" alt="">
 
@@ -376,7 +312,7 @@
         </div>
       </div>
 
-    </section><!-- /Call To Action Section -->
+    </section>--> <!-- /Call To Action Section -->
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
@@ -384,7 +320,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>Check our Portfolio</p>
+        <p>Check Your Chosen Pet</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -393,99 +329,109 @@
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Card</li>
-            <li data-filter=".filter-branding">Web</li>
+            <!--<li data-filter=".filter-app">KUCING</li>
+            <li data-filter=".filter-product">ANJING</li>
+            <li data-filter=".filter-branding">KELINCI</li>--> 
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-KUCING">
+              <img src="assets/img/masonry-portfolio/anggora1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <h4>Kucing Persia</h4>
+                <p></p>
+                <a href="assets/img/masonry-portfolio/anggora1.jpg" title="Kucing Persia" data-gallery="portfolio-gallery-KUCING" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kucing">
+              <img src="assets/img/masonry-portfolio/anggora2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Product 1</h4>
+                <h4>Kucing Persia</h4>
+                <p></p>
+                <a href="assets/img/masonry-portfolio/anggora2.jpg" title="Kucing Persia" data-gallery="portfolio-gallery-kucing" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kucing">
+              <img src="assets/img/masonry-portfolio/persia.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Kucing Mujair</h4>
+                <p></p>
+                <a href="assets/img/masonry-portfolio/persia.jpg" title="Kucing Mujair" data-gallery="portfolio-gallery-kucing" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kelinci">
+              <img src="assets/img/masonry-portfolio/kelinci 1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Kelinci Domestik</h4>
+                <p></p>
+                <a href="assets/img/masonry-portfolio/kelinci 1.jpg" title="Kelinci Domestik" data-gallery="portfolio-gallery-kelinci" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kucing">
+              <img src="assets/img/masonry-portfolio/kucing1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Kucing Sphynx</h4>
+                <p></p>
+                <a href="assets/img/masonry-portfolio/kucing1.jpg" title="Kucing Sphynx" data-gallery="portfolio-gallery-kucing" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-anjing">
+              <img src="assets/img/masonry-portfolio/anjing 2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Anjing Chihuahua</h4>
+                <p></p>
+                <a href="assets/img/masonry-portfolio/anjing 2.jpg" title="Anjing Chihuahua" data-gallery="portfolio-gallery-anjing" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-anjing">
+              <img src="assets/img/masonry-portfolio/anjing 1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Anjing Basenji</h4>
+                <p></p>
+                <a href="assets/img/masonry-portfolio/anjing 1.jpg" title="Anjing Basenji " data-gallery="portfolio-gallery-anjing" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kelinci">
+              <img src="assets/img/masonry-portfolio/kelinci2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Kelinci Eropa</h4>
                 <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="assets/img/masonry-portfolio/kelinci2.jpg" title="Kelinci Eropa" data-gallery="portfolio-gallery-kelinci" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/masonry-portfolio/anjing3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <h4>Anjing Toy Poodle</h4>
+                <p></p>
+                <a href="assets/img/masonry-portfolio/anjing3.jpg" title="Anjing Toy Poodle" data-gallery="portfolio-gallery-anjing" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kelinci">
+              <img src="assets/img/masonry-portfolio/kelinci3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <h4>Kelinci Blanc de Popielno</h4>
+                <p></p>
+                <a href="assets/img/masonry-portfolio/kelinci3.jpg" title="Kelinci Blanc de Popielno" data-gallery="portfolio-gallery-kelinci" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
@@ -499,7 +445,7 @@
     </section><!-- /Portfolio Section -->
 
     <!-- Stats Section -->
-    <section id="stats" class="stats section">
+    <!--<section id="stats" class="stats section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -526,9 +472,9 @@
                     <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
                   </div>
                 </div>
-              </div><!-- End Stats Item -->
+              </div> --> <!-- End Stats Item -->
 
-              <div class="col-lg-6">
+              <!-- <div class="col-lg-6">
                 <div class="stats-item d-flex">
                   <i class="bi bi-journal-richtext flex-shrink-0"></i>
                   <div>
@@ -536,9 +482,9 @@
                     <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
                   </div>
                 </div>
-              </div><!-- End Stats Item -->
+              </div> --> <!-- End Stats Item -->
 
-              <div class="col-lg-6">
+              <!-- <div class="col-lg-6">
                 <div class="stats-item d-flex">
                   <i class="bi bi-headset flex-shrink-0"></i>
                   <div>
@@ -546,9 +492,9 @@
                     <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
                   </div>
                 </div>
-              </div><!-- End Stats Item -->
+              </div> --> <!-- End Stats Item -->
 
-              <div class="col-lg-6">
+              <!--<div class="col-lg-6">
                 <div class="stats-item d-flex">
                   <i class="bi bi-people flex-shrink-0"></i>
                   <div>
@@ -556,9 +502,9 @@
                     <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
                   </div>
                 </div>
-              </div><!-- End Stats Item -->
+              </div> --> <!-- End Stats Item -->
 
-            </div>
+            <!--</div>
 
           </div>
 
@@ -566,12 +512,12 @@
 
       </div>
 
-    </section><!-- /Stats Section -->
+    </section>--> <!-- /Stats Section -->
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section dark-background">
 
-      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+      <img src="assets/img/women.jpg" class="testimonials-bg" alt="">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -596,14 +542,14 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <h3> Raihan </h3>
+                <h4>Pecinta Hewan</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <span>Website ini sangat membantu saya menemukan hewan peliharaan impian saya! Informasi yang diberikan sangat lengkap, mulai dari deskripsi hewan hingga tips perawatan. Proses adopsinya juga mudah dan cepat. Terima kasih sudah membuat platform yang ramah untuk pecinta hewan seperti saya.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -612,14 +558,14 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <h3> Maya </h3>
+                <h4>Pengelola Shelter</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <span>Website ini benar-benar jembatan yang luar biasa untuk membantu shelter seperti kami. Hewan-hewan yang kami rawat sekarang memiliki peluang lebih besar untuk diadopsi oleh keluarga yang tepat.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -628,14 +574,14 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <h3> Alexa </h3>
+                <h4>Freelancer IT</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <span>Sebagai seorang developer, saya kagum dengan desain website ini yang responsif dan mudah digunakan. Navigasinya intuitif, bahkan untuk pengguna yang awam teknologi. Fitur filter pencarian hewan berdasarkan jenis dan usia juga sangat membantu.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -644,14 +590,14 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <h3> Rifki </h3>
+                <h4>Ibu Rumah Tangga</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <span>Anak-anak saya sudah lama ingin memelihara kucing, dan website ini membuat prosesnya jadi lebih aman dan nyaman. Kami bisa melihat profil kucing yang tersedia dan memilih berdasarkan kebutuhan keluarga kami. Terima kasih atas pengalaman yang menyenangkan ini.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -706,7 +652,7 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
+                <h4>Ahmad Munfarid</h4>
                 <span>Chief Executive Officer</span>
               </div>
             </div>
@@ -724,7 +670,7 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
+                <h4>Alfa Hikmatun Nabilah</h4>
                 <span>Product Manager</span>
               </div>
             </div>
@@ -742,7 +688,7 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>William Anderson</h4>
+                <h4>Dyah Ayu Kusumaningtyas</h4>
                 <span>CTO</span>
               </div>
             </div>
@@ -760,10 +706,26 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Amanda Jepson</h4>
+                <h4>Nisa Atthalia</h4>
                 <span>Accountant</span>
               </div>
             </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Nabila Ismawarni</h4>
+                <span>Accountant</span>
           </div><!-- End Team Member -->
 
         </div>
