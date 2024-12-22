@@ -26,6 +26,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  
 
   <!-- =======================================================
   * Template Name: Gp
@@ -49,31 +50,17 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home<br></a></li>
-          <li class="dropdown"><a href="#"><span>Adopt</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Kucing</a></li>
-              {{-- <li class="dropdown"><a href="#"><span>Anjing</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#"><></></a></li>
-                  <li><a href="anjing.blade.php">Anjing</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li> --}}
-              <li><a href="#">Anjing </a></li>
-              <li><a href="#">Kelinci </a></li>
-              <li><a href="#">Burung </a></li>
-            </ul>
+          <li><a href="index" class="active">Home<br></a></li>
+          <li class="dropdown"><a href="adopt"><span>Adopt</span></a>
+            
           </li>
-          <li><a href="#about">Kontak</a></li>
+          <li><a href="adopt">Kontak</a></li>
           <li><a href="#services">Daftar</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="index.html#about">Login</a>
+      <a class="btn-getstarted" href="index.blade.php#about">Login</a>
 
     </div>
   </header>
