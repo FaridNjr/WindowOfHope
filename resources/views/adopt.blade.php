@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Gp Bootstrap Template</title>
+  <title>WindowOfHope</title>
 
   <!-- Bootstrap CSS -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -55,7 +55,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+      <a href="/" class="logo d-flex align-items-center me-auto me-lg-0">
         <h1 class="sitename">WindowOfHope</h1>
       </a>
 
@@ -71,7 +71,12 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="index.blade.php#about">Login</a>
+      @auth
+      <a class="btn-getstarted" href="#">{{ Auth::user()->name }}</a>
+      @endauth
+      @guest
+      <a class="btn-getstarted" href="/login">Login</a>
+      @endguest
 
     </div>
   </header>

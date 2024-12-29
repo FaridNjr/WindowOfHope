@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\AuthController;
 
 
 /*
@@ -14,6 +14,14 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::middleware('guest')->group(function () {
+    Route::get('/login', [AuthController::class, 'login'])->name('view-login');
+    Route::post('/postlogin', [AuthController::class, 'loginPost'])->name('postlogin');
+    Route::get('/register', [AuthController::class, 'register'])->name('view-register');
+    Route::post('/postregister', [AuthController::class, 'registerPost'])->name('postregister');
+    Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
+});
 
 Route::get('/', function () {
     return view('index');
@@ -89,6 +97,3 @@ Route::get('/kel3', function () {
 Route::get('/kucingM', function () {
     return view('/kucingM');
 });
-
-
-

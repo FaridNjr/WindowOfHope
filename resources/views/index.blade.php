@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Gp Bootstrap Template</title>
+  <title>WindowOfHope</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -42,7 +42,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+      <a href="/" class="logo d-flex align-items-center me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">WindowOfHope</h1>
@@ -60,7 +60,12 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="index.blade.php#about">Login</a>
+      @auth
+      <a class="btn-getstarted" href="#">{{ Auth::user()->name }}</a>
+      @endauth
+      @guest
+      <a class="btn-getstarted" href="/login">Login</a>
+      @endguest
 
     </div>
   </header>
@@ -811,7 +816,7 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="/" class="logo d-flex align-items-center">
               <span class="sitename">GP</span>
             </a>
             <div class="footer-contact pt-3">
