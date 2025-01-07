@@ -10,6 +10,7 @@ class WindowOfHope extends Controller
     {
         $adopt = adopt::all();
         return view('adopt',compact('adopt'));
+
     
-}
+    }
 }
