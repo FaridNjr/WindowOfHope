@@ -61,12 +61,11 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index" class="active">Home<br></a></li>
-          <li class="dropdown"><a href="adopt"><span>Adopt</span></a>
+          <li><a href="/">Home<br></a></li>
+          <li class="dropdown active"><a href="adopt"><span>Adopt</span></a>
             
           </li>
-          <li><a href="#adopt">Kontak</a></li>
-          <li><a href="#services">Daftar</a></li>
+          <li class="dropdown active"><a href="/">Kontak</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -76,6 +75,7 @@
       @endauth
       @guest
       <a class="btn-getstarted" href="/login">Login</a>
+      <a class="btn-getstarted" href="/register">Register</a>
       @endguest
 
     </div>
@@ -197,14 +197,6 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-        <a href="bebek1">
-          <img src="assets/img/masonry-portfolio/bebek1.jpg" class="img-fluid" alt="bebek">
-        </a>
-        <div class="portfolio-info">
-          <a href="bebek1"><h4>Bebek</h4></a>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
         <a href="anj3">
           <img src="assets/img/masonry-portfolio/anj3.jpg" class="img-fluid" alt="anjing">
         </a>
@@ -251,6 +243,10 @@
         </a>
         <div class="portfolio-info">
           <a href="cat1"><h4>Kucing</h4></a>
+        </div>
+        <div class="d-grid gap-2">
+</div>
+          </div>
         </div>
 
 

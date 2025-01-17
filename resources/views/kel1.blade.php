@@ -55,7 +55,7 @@
           
           <!-- Tautan -->
           <a href="assets/img/masonry-portfolio/kelinci3.jpg" title="kelinci" class="btn btn-primary">Lihat Gambar</a>
-          
+          <a href="https://wa.me/62882007642077" class="btn btn-success">Chat Pemilik</a>
         </div>
       </div>
     </div>

@@ -1,8 +1,9 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
-
+use App\Http\Controllers\Auth\AuthenticatedSessionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,7 +21,8 @@ Route::middleware('guest')->group(function () {
     Route::post('/postlogin', [AuthController::class, 'loginPost'])->name('postlogin');
     Route::get('/register', [AuthController::class, 'register'])->name('view-register');
     Route::post('/postregister', [AuthController::class, 'registerPost'])->name('postregister');
-    Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
+    Route::get('/logout', [AuthenticatedSessionController::class])-> name('logout');
+    Route::post('/logout', [AuthController::class, 'destroy'])->name('logout');
 });
 
 Route::get('/', function () {
@@ -76,9 +78,6 @@ Route::get('/kel1', function () {
 Route::get('/kura1', function () {
     return view('kura1');
 });
-Route::get('/bebek1', function () {
-    return view('bebek1');
-});
 Route::get('/anj3', function () {
     return view('anj3');
 });
@@ -97,3 +96,21 @@ Route::get('/kel3', function () {
 Route::get('/kucingM', function () {
     return view('/kucingM');
 });
+Route::get('/upload', function () {
+    return view('/upload');
+});
+Route::get('/koneksi', function () {
+    return view('/koneksi');
+});
+Route::get('/login', function () {
+    return view('/login');
+});
+Route::get('/logout', function () {
+    return view('/logout');
+});
+
+
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

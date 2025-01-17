@@ -54,6 +54,7 @@
           
           <!-- Tautan -->
           <a href="assets/img/masonry-portfolio/pretty red.jpg" title="pretty red"class="btn btn-primary">Lihat Gambar</a>
+          <a href="https://wa.me/62882007642077" class="btn btn-success">Chat Pemilik</a>
           
         </div>
       </div>

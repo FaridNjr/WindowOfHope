@@ -44,7 +44,6 @@
       <div class="col-lg-4 col-md-6 portfolio-item">
         <!-- Gambar -->
         <img src="assets/img/masonry-portfolio/anj3.jpg" alt="anjing" class="img-fluid">
-        
         <!-- Informasi -->
         <div class="portfolio-info">
           <p>Nama Hewan: Anjing</p>
@@ -55,7 +54,7 @@
           
           <!-- Tautan -->
           <a href="assets/img/masonry-portfolio/anj3.jpg" title="anjing" class="btn btn-primary">Lihat Gambar</a>
-          
+          <a href="https://wa.me/62882007642077" class="btn btn-success">Chat Pemilik</a>
         </div>
       </div>
     </div>
