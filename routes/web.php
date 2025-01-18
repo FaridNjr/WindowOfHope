@@ -4,6 +4,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Auth\AuthenticatedSessionController;
+use App\Http\Controllers\Auth\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +24,7 @@ Route::middleware('guest')->group(function () {
     Route::post('/postregister', [AuthController::class, 'registerPost'])->name('postregister');
     Route::get('/logout', [AuthenticatedSessionController::class])-> name('logout');
     Route::post('/logout', [AuthController::class, 'destroy'])->name('logout');
+    
 });
 
 Route::get('/', function () {
@@ -96,12 +98,6 @@ Route::get('/kel3', function () {
 Route::get('/kucingM', function () {
     return view('/kucingM');
 });
-Route::get('/upload', function () {
-    return view('/upload');
-});
-Route::get('/koneksi', function () {
-    return view('/koneksi');
-});
 Route::get('/login', function () {
     return view('/login');
 });
@@ -112,5 +108,9 @@ Route::get('/logout', function () {
 
 
 Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+/*
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'home'])->name('coba');
+*/
+Route::get('/home', function () {
+    return view('home');
+});
